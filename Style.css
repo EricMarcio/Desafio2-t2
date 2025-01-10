@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin:0;
+}
+
+section#header2 {
+    width: 100%;
+    height:98.08126410835214vh;
+}
+
+section#gestao {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height:115.57562076749436vh;
+}
+
+section#solucoes {
+    background-color:rgb(216, 216, 216);
+    width:100%;
+    height:115.57562076749436vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#atendimento {
+    width:100%;
+    height:108.46501128668172vh;
+}
+
+footer {
+    width:100%;
+    height:7.110609480812641vh;
+    background-color:rgb(216, 216, 216);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size:1.580135440180587vh;
+    color: rgb(0, 28, 67);
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width:100%;
+    margin: 0;
+    height:17.494356659142213vh;
+}
+
+header h1 {
+    margin-left:14.334085778781038vh;
+    font-family:"Oswald";
+    font-size:4.514672686230249vh;
+    font-weight: 700;
+}
+
+#background {
+    width:100%;
+    height:71.55756207674943vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: top;
+    background-image: url("./Imagens/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background h1 {
+    width:64.22121896162528vh;
+    height:16.02708803611738vh;
+    color:rgb(255,255,255);
+    font-family: "Oswald";
+    font-size:10.835214446952596vh;
+    font-weight: 700;
+    margin-top:13.544018058690744vh;
+    margin-left:14.334085778781038vh;
+}
+
+#background p {
+    width:52.48306997742664vh;
+    height:5.3047404063205414vh;
+    color:rgb(255,255,255);
+    font-family:"Oswald";
+    font-size:3.6117381489841986vh;
+    font-weight: 300;
+    margin-left:14.334085778781038vh;
+}
+
+#background button {
+    width:28.329571106094807vh;
+    height:6.659142212189616vh;
+    color:rgb(255,255,255);
+    background-color: rgb(0, 22, 223);
+    font-family:"Oswald";
+    font-size:2.708803611738149vh;
+    font-weight: 700;
+    border-width: 0vh;
+    margin-left:17.155756207674944vh;
+}
+
+#gestao img {
+    width:76.63656884875847vh;
+    height:88.37471783295712vh;
+}
+
+#gestao #textao {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 2.708803611738149vh;
+    height: 47.065462753950335vh;
+    width:53.49887133182844vh;
+}
+
+#gestao #title1 {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size:2.708803611738149vh;
+    color:rgb(0, 23, 233);
+}
+
+#gestao h1 {
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size:4.063205417607223vh;
+    width:53.49887133182844vh;
+    height:10.383747178329571vh;
+}
+
+#gestao #extra {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 2.708803611738149vh;
+    color:rgb(0, 23, 233);
+}
+
+#solucoes #texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#solucoes #imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#solucoes #text1 {
+    margin-top:65px;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size:2.708803611738149vh;
+    color:rgb(0, 23, 233);
+}
+
+#solucoes #text2 {
+    font-family:"Oswald";
+    font-weight:500;
+    font-size:2.708803611738149vh;
+    color:rgb(0, 0, 0);
+}
+
+#imagens figure {
+    background-color: white;
+    width:41.42212189616253vh;
+    height:54.627539503386004vh;
+    box-shadow: 0px 4px 10px 0px rgb(0, 0, 0);
+}
+
+#imagens figure figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left:2.2573363431151243vh;
+    margin-right:2.2573363431151243vh;
+}
+
+#imagens figure figcaption h1 {
+    font-family:"Oswald";
+    font-weight:500;
+    font-size:2.708803611738149vh;
+    color:rgb(0, 0, 0);
+}
+
+#imagens figure figcaption p {
+    font-family:"Oswald";
+    font-weight:200;
+    font-size:2.708803611738149vh;
+    color:rgb(0, 0, 0);
+}
+
